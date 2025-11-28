@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Home() {
@@ -22,9 +23,9 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="/resume" className="btn-outline">이력서 보기</a>
-            <a href="/intro" className="btn-outline">자기소개서 보기</a>
-            <a href="/portfolio" className="btn-outline">포트폴리오 보기</a>
+            <Link to="/resume" className="btn-outline">이력서 보기</Link>
+            <Link to="/intro" className="btn-outline">자기소개서 보기</Link>
+            <Link to="/portfolio" className="btn-outline">포트폴리오 보기</Link>
           </div>
 
         </div>
